@@ -63,35 +63,4 @@
 </x-app-layout>
 
 
-<!-- <div class="py-12">
-    <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg border border-gray-200">
-            <div class="p-8 bg-white">
-                <form method="POST" action="{{ route('posts.store') }}">
-                    @csrf
 
-                    <div class="mb-6">
-                        <label for="title" class="block text-sm font-medium text-gray-700 mb-2 italic">Post Title</label>
-                        <input type="text" name="title" id="title"
-                               class="block w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm p-3 border"
-                               placeholder="Enter a catchy title..." required>
-                    </div>
-
-                    <div class="mb-6">
-                        <label for="body" class="block text-sm font-medium text-gray-700 mb-2 italic">Post Content</label>
-                        <textarea name="body" id="body" rows="6"
-                                  class="block w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm p-3 border"
-                                  placeholder="Write your story here..." required></textarea>
-                    </div>
-
-                    <div class="flex items-center justify-end mt-6">
-                        <button type="submit"
-                                class="inline-flex items-center px-6 py-3 bg-blue-600 border border-transparent rounded-md font-bold text-xs text-white uppercase tracking-widest hover:bg-blue-700 active:bg-blue-800 focus:outline-none focus:border-blue-900 focus:ring ring-blue-300 disabled:opacity-25 transition ease-in-out duration-150 shadow-md">
-                            {{ __('Publish Post') }}
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div> -->

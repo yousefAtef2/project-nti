@@ -26,7 +26,7 @@
                 @endif
             </div>
         </div>
-    </div> {{-- قفلة الديف اللي بدأ في سطر 8 --}}
+    </div> 
 
     <!-- <div class="py">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
